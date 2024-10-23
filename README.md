@@ -43,7 +43,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/neurotrack.git
+git clone https://github.com/SarathA9/NeuroTrack---AI-Driven-Neurofeedback
 cd neurotrack
 Install the dependencies for the frontend:
 
@@ -121,18 +121,7 @@ neurotrack/
 │   └── requirements.txt        # Python dependencies
 │
 └── README.md                   # Project documentation
-API Endpoints
-User Authentication
-POST /api/register: Register a new user.
-POST /api/login: User login.
-Sessions
-GET /api/sessions: Retrieve session history.
-POST /api/sessions: Start a new session and stream EEG data.
-PUT /api/sessions/:id: Update session data.
-ML Service
-POST /api/ml/predict: Send real-time EEG data for prediction and feedback.
-WebSocket
-/ws: WebSocket endpoint for streaming real-time EEG data to the backend.
+
 Machine Learning
 The Flask ML service runs real-time EEG signal processing and prediction. The models are trained on different brainwave frequency bands (alpha, beta, theta, delta) to analyze cognitive states like attention and relaxation.
 
