@@ -122,6 +122,7 @@ neurotrack/
 │
 └── README.md                   # Project documentation
 
+
 Machine Learning
 The Flask ML service runs real-time EEG signal processing and prediction. The models are trained on different brainwave frequency bands (alpha, beta, theta, delta) to analyze cognitive states like attention and relaxation.
 
