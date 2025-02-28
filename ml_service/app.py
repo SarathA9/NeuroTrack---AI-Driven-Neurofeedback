@@ -120,7 +120,7 @@ def process_eeg():
             'session_type': session_type
         }
         
-        return jsonify(response)
+       return jsonify(response)
     
     except Exception as e:
         logger.error(f"Error processing EEG data: {e}")
